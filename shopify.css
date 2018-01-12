@@ -1,0 +1,105 @@
+/* 
+    filename: shopify.css
+    Author: Sophie Stroink
+
+    Colours:
+    green: #7AB55C; 
+    grey: #7B7B7B;
+    purpleLight: #5c6ac4;
+    purpleDark: #000639;
+    red: #C23628;
+*/
+
+body{
+    background-color: #000639 ;
+}
+div {
+    margin-left: 20%;
+    display: block; 
+    width: 900px;
+    padding-top: 3%;
+    font-family: helvetica;
+
+}
+
+#content{
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+h2{
+	border: 1px solid #7AB55C;
+    width: 4%;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: white; 
+}
+
+#email{ 
+    border-radius: 8px;
+    font-size: 16px;
+    color: #7B7B7B;
+    padding-left: 7px;
+    margin-right: 10px;
+    height: 50px;
+    width: 350px;
+}
+
+input.btn{
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    width: 550px;
+
+}
+select{
+    /*Progressive enchancement for appearance - allows proper styles for selector*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #7B7B7B;
+    padding-left: 7px;
+    height: 55px;
+    width: 170px;
+}
+
+/*Email warning*/
+#error{
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000639;
+   
+  
+}
+
+/*Unsubscribe*/
+a{
+    color: white;
+    font-size: 12px;
+	display: block;
+	margin-left: 275px;
+	padding-top: 250px;
+}
+
+.btn{
+    font-style: bold;
+    color: white;
+    background-color: #5c6ac4;
+    border: none; 
+    width: 60%;
+  
+}
