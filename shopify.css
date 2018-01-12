@@ -103,3 +103,31 @@ a{
     width: 60%;
   
 }
+
+/*Mobile styles*/
+@media screen and (max-width: 501px){
+    div{
+        width: 400px;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    #email{ 
+        height: 30px;
+        width: 170px;
+    }
+
+    input.btn{
+        height: 50px;
+        width: 350px;
+
+    }
+    select{
+        height: 36px;
+        width: 150px;
+    }
+    
+    a{
+        margin-left: 170px;
+    }
+}
